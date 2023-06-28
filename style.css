@@ -153,7 +153,7 @@ nav ul li a {
   padding: 30px;
   width: 500px;
   text-align: center;
-  background-image: url("../images/negmano.jpg");
+  background-image: url("images/negmano.jpg");
 }
 
 .descripcion {
@@ -186,7 +186,7 @@ nav ul li a {
 }
 
 .card-servdes {
-  background-image: url("../images/service-desarrollo.jpg");
+  background-image: url("images/service-desarrollo.jpg");
   background-size: cover;
   background-position: center;
   height: 500px;
@@ -202,7 +202,7 @@ nav ul li a {
 }
 
 .card-servinv {
-  background-image: url("../images/service-inversor.jpg");
+  background-image: url("images/service-inversor.jpg");
   background-size: cover;
   background-position: center;
   height: 500px;
@@ -243,11 +243,11 @@ nav ul li a {
 }
 
 .card:first-child {
-  background-image: url("../images/service-desarrollo.jpg");
+  background-image: url("images/service-desarrollo.jpg");
 }
 
 .card:last-child {
-  background-image: url("../images/service-inversor.jpg");
+  background-image: url("images/service-inversor.jpg");
 }
 
 /* Sección Contacto */
