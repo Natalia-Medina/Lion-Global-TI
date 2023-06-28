@@ -256,10 +256,10 @@ nav ul li a {
 }
 
 .contact-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 10px;
+  display: flex;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-around;
   border-radius: 5px;
 }
 
@@ -270,12 +270,12 @@ nav ul li a {
 .contact-form {
   display: flex;
   flex-direction: column;
+  width: 50%;
 }
 
 .contact-info {
   display: flex;
   flex-direction: column;
-  padding: 40px;
   margin-top: -180px;
 }
 
