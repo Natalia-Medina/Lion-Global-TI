@@ -162,7 +162,9 @@ nav ul li a {
 
 .container-mv:hover .descripcion {
   display: flex;
-  width: 500px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
