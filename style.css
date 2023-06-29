@@ -198,6 +198,7 @@ nav ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px;
   color: #fff;
   text-align: center;
   border-radius: 10px;
@@ -240,6 +241,7 @@ nav ul li a {
   align-items: center;
   justify-content: space-around;
   border-radius: 5px;
+  padding: 2%;
 }
 
 .contact-container h2 {
