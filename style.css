@@ -8,7 +8,7 @@ html {
       overflow-x: hidden;
   }
 
-.principal {
+body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -38,13 +38,6 @@ nav {
   align-items: center;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-  margin-right: auto;
-  /* Mover el logo hacia la izquierda */
-}
-
 .logo img {
   width: 200px;
   height: auto;
@@ -62,7 +55,7 @@ input[type="checkbox"] {
   content: "";
   display: block;
   width: 25px;
-  height: 3px;
+  height: 4px;
   background-color: rgb(191, 155, 81);
   margin-bottom: 5px;
 }
@@ -71,7 +64,7 @@ input[type="checkbox"] {
   content: "";
   display: block;
   width: 25px;
-  height: 3px;
+  height: 4px;
   background-color: rgb(191, 155, 81);
 }
 
@@ -98,7 +91,6 @@ nav ul li a {
   color: rgb(191, 155, 81);
 }
 
-
 /* Sección Hero */
 #hero {
   width: 100%;
@@ -109,15 +101,12 @@ nav ul li a {
 .hero-slider {
   display: flex;
   width: 600%;
-  /* Ajusta el número de imágenes duplicadas multiplicando por 100% */
   height: 100%;
   animation: slide-animation 25s linear infinite;
-  /* Ajusta la duración de la transición */
 }
 
 .slide {
   flex: 0 0 20.33%;
-  /* Ajusta el ancho de cada imagen (100% dividido por el número de imágenes) */
 }
 
 .slide img {
@@ -128,7 +117,7 @@ nav ul li a {
 
 @keyframes slide-animation {
   0% {
-    transform: translateX(0);
+    transform: translateX(10);
   }
 
   100% {
@@ -152,6 +141,7 @@ nav ul li a {
   justify-content: space-around;
   align-items: flex-start;
   flex-wrap: wrap;
+  padding: 2%;
   gap: 10px;
 }
 
@@ -163,7 +153,8 @@ nav ul li a {
   padding: 30px;
   width: 500px;
   text-align: center;
-  background-image: url("images/negmano.jpg");
+  background-image: url("images/misionvision.jpg");
+  cursor: pointer;
 }
 
 .descripcion {
@@ -180,7 +171,7 @@ nav ul li a {
 
 /* Sección Servicios*/
 #services {
-  padding: 5px;
+  padding: 5%;
   background-color: #04162f;
 }
 
@@ -208,12 +199,10 @@ nav ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
   color: #fff;
   text-align: center;
   border-radius: 10px;
   margin-bottom: 10px;
-
 }
 
 .card-content {
@@ -238,15 +227,6 @@ nav ul li a {
   color: #fff;
   padding: 8px 15px;
   border-radius: 5px;
-  text-decoration: none;
-}
-
-.card:first-child {
-  background-image: url("images/service-desarrollo.jpg");
-}
-
-.card:last-child {
-  background-image: url("images/service-inversor.jpg");
 }
 
 /* Sección Contacto */
@@ -297,7 +277,6 @@ nav ul li a {
 
 .contact-form input[type="submit"] {
   width: 150px;
-  /* Ajusta el ancho según tus preferencias */
   background-color: #bf9b51;
   color: #fff;
   border-radius: 5px;
@@ -314,7 +293,6 @@ footer {
   justify-content: center;
   align-items: center;
   height: 100px;
-  /* Ajusta la altura según tus preferencias */
 }
 
 footer .logo {
@@ -326,18 +304,15 @@ footer .logo {
 
 footer .logo img {
   max-width: 100px;
-  /* Ajusta el ancho del logo según tus preferencias */
   width: 100%;
   height: auto;
   margin: 0 auto;
-  /* Centra horizontalmente el logo */
 }
 
 /* Estilos para pantallas más pequeñas */
 @media (max-width: 768px) {
   footer {
     height: auto;
-    /* Altura automática para adaptarse al contenido */
     padding: 20px;
     flex-direction: column;
     text-align: center;
@@ -345,12 +320,9 @@ footer .logo img {
 
   footer .logo img {
     max-width: 80px;
-    /* Ajusta el ancho del logo para pantallas más pequeñas */
     margin: 10px auto;
-    /* Centra horizontalmente el logo y agrega un espacio vertical */
   }
 }
-
 
 /* Estilos para el menú hamburguesa */
 @media (max-width: 768px) {
@@ -370,30 +342,19 @@ footer .logo img {
     position: absolute;
     top: 100px;
     right: 0;
-    /* Alinear el menú hamburguesa a la derecha */
     z-index: 1;
-    /* Asegurar que el menú esté por encima del contenido */
   }
 
   nav ul li {
     display: block;
     margin: 10px 0;
     font-size: 10px;
-    /* Tamaño de letra reducido */
     text-align: center;
-    /* Texto centrado */
   }
 
   input[type="checkbox"]:checked~ul {
     display: flex;
     background-color: rgba(4, 22, 47, 0.8);
     border-radius: 10px;
-  }
-
-  .logo {
-    margin-right: 0;
-    /* Reiniciar el margen derecho del logo */
-    justify-content: center;
-    /* Centrar el logo */
   }
 }

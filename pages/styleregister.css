@@ -7,7 +7,7 @@
 .contenedor {
   width: 400px;
   margin: auto;
-  background-color: rgba(4, 22, 47, 0.5);
+  background-color: rgba(4, 22, 47, 0.8);
   padding: 20px;
   border-radius: 10px;
   text-align: center;
@@ -45,4 +45,20 @@ input[type="submit"] {
 p {
   color: #FFF;
   margin-top: 10px;
+  font-style: italic;
+}
+
+.login {
+  color: #fff;
+}
+
+.back-to-top {
+	display: block;
+	margin-top: 10px;
+	padding: 10px 10px;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+  font-style: normal;
 }
