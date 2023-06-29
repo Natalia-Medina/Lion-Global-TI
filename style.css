@@ -170,17 +170,15 @@ nav ul li a {
 
 /* Sección Servicios*/
 #services {
-  
   background-color: #04162f;
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
 .card-servdes {
   background-image: url("images/service-desarrollo.jpg");
   background-size: cover;
   background-position: center;
-  height: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -196,7 +194,6 @@ nav ul li a {
   background-image: url("images/service-inversor.jpg");
   background-size: cover;
   background-position: center;
-  height: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
