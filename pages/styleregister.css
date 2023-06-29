@@ -10,14 +10,12 @@ body {
   display: flex;
   flex-direction: column;
   background-color: rgba(4, 22, 47, 0.8);
-  width: 45%;
-  height: 30%;
+  width: 90%;
+  max-width: 500px;
+  height: auto;
   padding: 20px;
   border-radius: 10px;
-  margin-left: 26%;
-  margin-right: 26%;
-  margin-top: 1%;
-  margin-bottom: 1%;
+  margin: 1% auto;
   text-align: center;
   align-items: center;
   justify-content: center;
