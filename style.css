@@ -1,12 +1,12 @@
 /* Estilos generales */
 html {
   width: 100%;
-      height: 100%;
-      margin: 0px;
-      padding: 0px;
-      background-color: #03172f;
-      overflow-x: hidden;
-  }
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: #03172f;
+  overflow-x: hidden;
+}
 
 body {
   font-family: Arial, sans-serif;
@@ -82,7 +82,6 @@ nav ul li {
 
 nav ul li:hover a {
   filter: brightness(90%);
-  /* Ajusta el porcentaje de oscurecimiento según tu preferencia */
 }
 
 nav ul li a {

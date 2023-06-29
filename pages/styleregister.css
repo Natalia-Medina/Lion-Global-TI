@@ -10,11 +10,12 @@ body {
   display: flex;
   flex-direction: column;
   background-color: rgba(4, 22, 47, 0.8);
-  width: 40%;
-  height: 40%;
-  padding: 10px;
+  width: 45%;
+  height: 30%;
+  padding: 20px;
   border-radius: 10px;
-  margin-left: 29%;
+  margin-left: 26%;
+  margin-right: 26%;
   margin-top: 1%;
   margin-bottom: 1%;
   text-align: center;
